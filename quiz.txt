@@ -1,0 +1,29 @@
+1. True or false: An if statement can live without an else statement: 
+Ans:True
+
+2. True or false: An else statement can live without an if statement: 
+Ans:False
+
+3. True or false: An elif statement can live without an if statement: 
+Ans:False
+
+4. True or false: An if + elif statement can live without an else statement: 
+Ans:True
+
+5. True or false: The following statements are equivalent: 
+Ans:True
+
+6. In the following code block, what prints?
+Ans:
+1
+2
+(not executed)
+4
+(not executed)
+(not executed)
+7
+8
+9
+
+7)In the following code block, what prints?
+Ans: 2
