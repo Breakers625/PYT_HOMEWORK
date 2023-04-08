@@ -1,0 +1,58 @@
+1. What is a nested loop?
+
+A nested loop is having a loop inside a loop. For example, if I have yield data for 3 planting rows with 3 different types of crops in each row. 
+Nested loop can be used to go through each row to calculate yield of each row or each type of crops from different rows to get yield by crop. 
+
+
+2. Which kind of loop is based on a conditional statement: while loops or for loops?
+
+Both while loops and for loops are based on conditional statement. If we wish to iterate a sequence of elements inside a list, we will use a for loops. 
+Codes within a block will be executed once for all the item in the list.Say, checking the height of every single plants in my field. A while loops will execute 
+our codes as long as certain conditions is met. For instance, to set an automated system to water plant as long as the soils is below certain soil moisture level. 
+
+
+
+3. When you want to iterate a specific number of times, would you typically use a while loop or a
+for loop?
+A for loop
+
+
+
+4. Is it possible to loop through a string one letter at a time? What is the example given in the article?
+
+Yes it is possible. The example given in one of the article is as follows:
+
+sammy = 'Sammy'
+
+for letter in sammy:
+   print(letter)
+Output
+S
+a
+m
+m
+y
+
+
+5. Extrapolate from what you learned in the articles: Do you think a for loop be nested inside a
+while loop? Why or why not?
+
+Yes, a for loop can be nested inside a while loop. A loops may need to be run multiple times with certain conditions. 
+
+1) Let’s say, a plantation consist of 9 blocks inside a grid system of 3x3, some blocks are planted (say, 1) and some blocks are not planted yet (say, 0). 
+
+2) Our goal is to stop planting until all blocks are planted. In addition, we would also like to know how many seedlings are planted in each blocks as 
+some areas within a block may be too hilly to be planted. 
+
+3)A for loop is being used to check if all the blocks has been planted or not (0 or 1), if is not planted (=condition A), we will plant it. 
+
+4)If condition A is met, the seedlings counter will increase by the number of newly planted seedlings. 
+
+5)A while loop can be used to keep planting all the seedlings until all plots are planted with a nested for loop to go through the grid until 
+all the grids are planted. 
+
+6) Once the condition of while loop is met (grid counter = 9), we will get a message telling us all blocks are planted and the total number of seedlings planted. 
+
+
+
+
